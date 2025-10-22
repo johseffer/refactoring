@@ -1,0 +1,24 @@
+{
+  "name": "refactoring-statement",
+  "version": "1.0.0",
+  "description": "Sistema de geração de extratos para performances teatrais",
+  "main": "statement.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "*.js",
+      "!run.js"
+    ]
+  },
+  "keywords": ["theater", "billing", "statement"],
+  "author": "",
+  "license": "MIT"
+}
